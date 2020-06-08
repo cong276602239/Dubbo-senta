@@ -14,7 +14,8 @@ dubbo的demo
 3.  数据库使用mysql 8.0.2  注意：mysql8的jdbc驱动和mysql其他版本不一致，请注意更改
 4.  配置中心使用nacos
 5.  seata中间件下载 https://github.com/seata/seata/releases
-
+6.  数据库表结构参照seata.sql 和test.sql
+7.  数据库账号密码直接修改pom文件
 
 #### 使用说明
 
@@ -32,6 +33,8 @@ dubbo的demo
 3. demo-user-api  对外暴露的服务的抽象类接口
 4. demo-user-api-impl 对应的服务的实现
 5. dubbodemo-web 对外暴露的api地址 
+6. demo-order-api  订单抽象接口
+7. demo-order-api-impl  订单实现
 
 
 
