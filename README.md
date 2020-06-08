@@ -1,37 +1,33 @@
-# dubbo-seata
+# dubbo-demo
 
 #### 介绍
-dubbo整合分布式事务seata中间件
+dubbo的demo
 
 #### 软件架构
-软件架构说明
+使用阿里ddubbo框架，注册中心使用zk,分布式事务使用阿里seata中间件
 
 
 #### 安装教程
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+1.  jdk1.8
+2.  使用maven导入jar包
+3.  数据库使用mysql 8.0.2  注意：mysql8的jdbc驱动和mysql其他版本不一致，请注意更改
+4.  配置中心使用nacos
+5.  seata中间件下载 https://github.com/seata/seata/releases
+
 
 #### 使用说明
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+1.  访问测试地址localhost;8080/api/user/detail?id=1
 
-#### 参与贡献
+#### 项目说明
 
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
+1. demo-core 所有项目使用jar包项目
+2. demo-pojo 项目使用的dto bean 枚举 公共类 项目
+3. demo-user-api  对外暴露的服务的抽象类接口
+4. demo-user-api-impl 对应的服务的实现
+5. dubbodemo-web 对外暴露的api地址 
 
 
-#### 码云特技
 
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  码云官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解码云上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是码云最有价值开源项目，是码云综合评定出的优秀开源项目
-5.  码云官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  码云封面人物是一档用来展示码云会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+
