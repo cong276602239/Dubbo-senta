@@ -18,7 +18,12 @@ dubbo的demo
 
 #### 使用说明
 
-1.  访问测试地址localhost;8080/api/user/detail?id=1
+1.  访问测试地址localhost:8080/api/user/order/inser 
+2.  入参{
+      	"user": {
+      		"name": "xxx"
+      	}
+      }
 
 #### 项目说明
 
